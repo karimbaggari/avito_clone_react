@@ -11,7 +11,7 @@ const Landing = () => {
             <ProductsCarousel />
             <ProductsGrid />
             <ProductsCarousel />
-            <ProductsGrid />
+            <ProductsGrid searchEnable={false} />
             <Footer />
         </React.Fragment>
     );

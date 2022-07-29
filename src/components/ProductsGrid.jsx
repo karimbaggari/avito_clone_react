@@ -1,7 +1,7 @@
 import React from "react";
 import SearchInput from './SearchInput';
 import { useState, useEffect } from "react";
-const Productgrid = () => {
+const Productgrid = (searchEnable) => {
     const [Products, setProducts] = useState([]);
     const MAX_LENGTH = 20;
 
@@ -17,7 +17,9 @@ const Productgrid = () => {
         <div className=" 2xl:container 2xl:mx-auto">
 
             <div className=" py-6 lg:px-20 md:px-6 px-4">
+             
             <SearchInput />
+       
                 <hr className=" w-full bg-gray-200 my-6" />
                
                 <div className=" grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-y-12 lg:gap-x-8 sm:gap-y-10 sm:gap-x-6 gap-y-6 lg:mt-12 mt-10">
