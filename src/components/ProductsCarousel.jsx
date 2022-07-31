@@ -1,4 +1,6 @@
+/* eslint-disable no-template-curly-in-string */
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
@@ -31,14 +33,13 @@ export default function Products() {
                         </ButtonBack>
                         <div className="w-full h-full mx-auto overflow-x-hidden overflow-y-hidden">
                             <Slider>
-
                                 {Categories.map((category, key) => {
                                     return (
                                         <Slide index={0}>
                                             <div className="flex flex-shrink-0 relative w-full sm:w-auto" key={key} style={{ cursor: "pointer" }}>
                                                 <img src={category.image} alt="black chair and white table" className="object-cover object-center w-full" style={{ height: "300" + "px", padding: "1" + "px", background: "#fff" }} />
                                                 <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                    <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">Category {numberOfCategory++}</h2>
+                                                    <Link to={`/categories:${numberOfCategory}`} className="lg:text-xl leading-4 text-base lg:leading-5 text-white">Category {numberOfCategory++}</Link>
                                                     <div className="flex h-full items-end pb-6">
                                                         <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white" key={key}>{category.name}</h3>
                                                     </div>
