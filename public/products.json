@@ -2,73 +2,73 @@
     {
         "id": 1,
         "title": "Appartements a louer à Bouznika",
-        "image": "https://content.avito.ma/classifieds/images/10042501791?t=images",
+        "image": "/ProductImages/8.jpeg",
         "price": "5500DH"
     },
     {
         "id": 2,
         "title": "Villa à jbl kbire",
-        "image": "https://content.avito.ma/classifieds/images/10064884391?t=images",
+        "image": "/ProductImages/9.jfif",
         "price": "550000DH"
     },
     {
         "id": 3,
         "title": "Appartement haut standing en Vente à Kénitra Med 5",
-        "image": "https://content.avito.ma/classifieds/images/10069373075?t=images",
+        "image": "/ProductImages/10.jfif",
         "price": "550000DH"
     },
     {
         "id": 4,
         "title": "Fiat doblo clime",
-        "image": "https://content.avito.ma/classifieds/images/10061092343?t=images",
+        "image": "/ProductImages/11.jfif",
         "price": "55000DH"
     },
     {
         "id": 5,
         "title": "volkswagen polo diesel",
-        "image": "https://content.avito.ma/classifieds/images/10069976560?t=images",
+        "image": "/ProductImages/12.jfif",
         "price": "25000DH"
     },
     {
         "id": 6,
         "title": "toyota yaris essence",
-        "image": "https://content.avito.ma/classifieds/images/10071222482?t=images",
+        "image": "/ProductImages/13.jfif",
         "price": "55000DH"
     },
     {
         "id": 7,
         "title": "Appartements a louer à Bouznika",
-        "image": "https://content.avito.ma/classifieds/images/10042501791?t=images",
+        "image": "/ProductImages/14.jfif",
         "price": "5500DH"
     },
     {
         "id": 8,
         "title": "Villa à jbl kbire",
-        "image": "https://content.avito.ma/classifieds/images/10064884391?t=images",
+        "image": "/ProductImages/15.jfif",
         "price": "550000DH"
     },
     {
         "id": 9,
         "title": "Appartement haut standing en Vente à Kénitra Med 5",
-        "image": "https://content.avito.ma/classifieds/images/10069373075?t=images",
+        "image": "/ProductImages/16.jfif",
         "price": "550000DH"
     },
     {
         "id": 10,
         "title": "Fiat doblo clime",
-        "image": "https://content.avito.ma/classifieds/images/10061092343?t=images",
+        "image": "/ProductImages/11.jfif",
         "price": "55000DH"
     },
     {
         "id": 11,
         "title": "volkswagen polo diesel",
-        "image": "https://content.avito.ma/classifieds/images/10069976560?t=images",
+        "image": "/ProductImages/18.jfif",
         "price": "25000DH"
     },
     {
         "id": 12,
         "title": "toyota yaris essence",
-        "image": "https://content.avito.ma/classifieds/images/10071222482?t=images",
+        "image": "/ProductImages/19.jfif",
         "price": "55000DH"
     }
 ]

@@ -1,67 +1,37 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
+import Header from '../components/Header';
 import { Switch } from '@headlessui/react';
 import React, { useEffect, useState } from 'react'
-import {Link,useParams} from 'react-router-dom';
-
+import { Link, useParams } from 'react-router-dom';
+import useCategoryProductsDisplay from '../Hooks/useCategoryProductDisplay';
 
 const SingleCategory = () => {
-  const {categoryId} = useParams();
-  const [Cars,setCars] = useState([]);
-  const [Houses,setHouses] = useState([]);
-
-  useEffect(()=>{
-    const fetchCarsData = async () => {
-      const rsp = await fetch("/Vehicules.json");
-      const vehicules = await rsp.json();
-      setCars(vehicules);
-    }
-  fetchCarsData();
-  },[]);
-
-  useEffect(()=>{
-    const fetchHousesData = async () => {
-      const rsp = await fetch("/immobilier.json");
-      const houses = await rsp.json();
-      setHouses(houses);
-    }
-  fetchHousesData();
-  },[]);
-
-  let DisplayData = [];
-
-  switch(categoryId) {
-    case ":1":
-    DisplayData = Cars;
-    break;
-    case ":2":
-      DisplayData = Houses;
-      break;
-    default: 
-    return null;
-  }
+  const DisplayData = useCategoryProductsDisplay();
   return (
-  <>
-<div className="bg-white">
-  <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-    <h2 className="sr-only">Products</h2>
+    <>
+      <Header />
+      <h2 style={{fontSize:"17"+"px",left:"20"+"em",bottom:"-3em",fontWeight:"bold",position:"relative"}}><Link to="/">Back Home</Link></h2>
+      <div className="bg-white">
+        <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+          <h2 className="sr-only">Products</h2>
 
-    <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-    {DisplayData.map(data => {
-      return(
-      <a href="#" className="group" key={data.id}>
-        <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-          <img src={data.image} alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." className="w-full h-full object-center object-cover group-hover:opacity-75"/>
+          <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            {DisplayData.map(data => {
+              return (
+                <Link to="#" className="group" key={data.id}>
+                  <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+                    <img src={data.image} alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." style={{width:"500"+"px",height:"250"+"px"}} className="w-full h-full object-center object-cover group-hover:opacity-75" />
+                  </div>
+                  <h3 className="mt-4 text-sm text-gray-700">{data.title}</h3>
+                  <p className="mt-1 text-lg font-medium text-gray-900">{data.price}</p>
+                </Link>
+              )
+            })
+            }
+          </div>
         </div>
-        <h3 className="mt-4 text-sm text-gray-700">{data.title}</h3>
-        <p className="mt-1 text-lg font-medium text-gray-900">{data.price}</p>
-      </a>
-      )
-       })}
-    </div>
-  </div>
-</div>
-  </>
+      </div>
+    </>
   )
 }
-
 export default SingleCategory;

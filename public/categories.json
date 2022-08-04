@@ -1,37 +1,37 @@
 [
     {
-        "id":1,
+        "id": 1,
         "name": "Vehicules",
-        "image": "https://www.evanshalshaw.com/-/media/evanshalshaw/vauxhall/used-cars/crossland-x/hero-banner/vx-crossland-x-720x405px.ashx"
+        "image": "/ProductImages/pic1.jpg"
     },
     {
-        "id":2,
+        "id": 2,
         "name": "Immobilier",
-        "image": "https://aujourdhui.ma/wp-content/uploads/2022/07/Heritage-Immobilier-Cabo-Huerto-Del-Rio-746x380.jpg"
+        "image": "/ProductImages/pic2.jpg"
     },
     {
-        "id":3,
+        "id": 3,
         "name": "Emploi et services",
-        "image": "https://f.hellowork.com/media/17004/1440_960/JLGServices_17004_63781387118716365657496284.jpeg"
+        "image": "/ProductImages/3.jpeg"
     },
     {
-        "id":4,
+        "id": 4,
         "name": "Habillement et bien etre",
-        "image": "https://img.clicbienetre.com/prod/2021-11/habillement-comment-bien-preparer-l-arrivee-de-bebe-1.jpg"
+        "image": "/ProductImages/4.jpg"
     },
     {
-        "id":5,
+        "id": 5,
         "name": "Loisirs et Divertissement",
-        "image": "https://sawakinome.com/img/images/difference-between-leisure-and-entertainment_2.jpg"
+        "image": "/ProductImages/5.jpg"
     },
     {
-        "id":6,
+        "id": 6,
         "name": "Pour la maison et jardin",
-        "image": "https://prod-saint-gobain-fr.content.saint-gobain.io/sites/saint-gobain.fr/files/2020-07/01-un-jardin-de-reve-les-6-astuces.jpg"
+        "image": "/ProductImages/6.jpg"
     },
     {
-        "id":7,
+        "id": 7,
         "name": "entreprises",
-        "image": "https://www.entreprises.cci-paris-idf.fr/documents/20152/0/home+rh.jpg/25fdb11a-7dd9-2e32-79d8-23210ed5e44f?t=1654060518434"
+        "image": "/ProductImages/7.jpg"
     }
 ]

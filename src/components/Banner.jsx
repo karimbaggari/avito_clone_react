@@ -1,8 +1,6 @@
 import React from 'react'
 import Appartement from '../assets/app.jpg';
-import SearchCategory from './SearchCategory';
-import SearchCountry from './SearchCountry';
-import SearchInput from './SearchInput';
+
 
 const Banner = () => {
     return (
@@ -78,7 +76,6 @@ const Banner = () => {
                     </div>
                 </div>
             </section>
-
         </React.Fragment>
     )
 }
