@@ -37,6 +37,7 @@ const Productgrid = (props) => {
                         // eslint-disable-next-line no-lone-blocks
                         {
                             if (product.title.toString().includes(title)) {
+                                // eslint-disable-next-line no-lone-blocks
                                 { isIt = true }
                                 return (
                                     <div className="relative" id="elementBox" key={key}>
