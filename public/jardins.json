@@ -3,42 +3,42 @@
         
         "id":1,
         "title":"Sibiri 20m",
-        "image":"https://content.avito.ma/classifieds/images/8632357820?t=images",
+        "image":"/ProductImages/41.jpeg",
         "price":"15 DH"
     },
     {
         
         "id":2,
         "title":"arbre 2m",
-        "image":"https://content.avito.ma/classifieds/images/10065191536?t=images",
+        "image":"/ProductImages/42.jpeg",
         "price":"60 DH"
     },
     {
         
         "id":3,
         "title":"SIBIRI 3m",
-        "image":"https://content.avito.ma/classifieds/images/10065192580?t=images",
+        "image":"/ProductImages/43.jpeg",
         "price":"140 DH"
     },
     {
         
         "id":4,
         "title":"Kharoub",
-        "image":"https://content.avito.ma/classifieds/images/10065193278?t=images",
+        "image":"/ProductImages/44.jpeg",
         "price":"80 DH"
     },
     {
         
         "id":5,
         "title":"cypres 1 m60 à 2 métres",
-        "image":"https://content.avito.ma/classifieds/images/10071720154?t=images",
+        "image":"/ProductImages/45.jpeg",
         "price":"15 DH"
     },
     {
         
         "id":6,
         "title":"cyprès collonnes 3 metres",
-        "image":"https://content.avito.ma/classifieds/images/10018291879?t=full_hd",
+        "image":"/ProductImages/46.jpeg",
         "price":"140 DH"
     }
 ]

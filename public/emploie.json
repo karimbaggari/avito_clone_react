@@ -2,37 +2,37 @@
     {
         "id": 1,
         "title": "femme de menage dans villa",
-        "image": "https://www.zemra-deco.com/wp-content/uploads/2019/04/femme-de-menage.jpg",
+        "image": "/ProductImages/9.jpg",
         "price": "600 DH"
     },
     {
         "id": 2,
         "title": "Jardinier dans villa hay riad",
-        "image": "https://www.tomlejardinier.com/img/tomlejardinier-pres-3.jpg",
+        "image": "/ProductImages/10.jpg",
         "price": "1100 DH"
     },
     {
         "id": 3,
         "title": "mechanicien privéé",
-        "image": "https://www.emploismecanicien.ca/img/blog/img/3-kuah4.png",
+        "image": "/ProductImages/1.png",
         "price": "2000 DH"
     },
     {
         "id": 4,
         "title": "chauffeur personelle",
-        "image": "https://thumbs.dreamstime.com/b/plan-rapproch%C3%A9-du-chauffeur-masculin-heureux-conduisant-la-voiture-africain-de-sitting-behind-happy-femme-d-affaires-149403916.jpg",
+        "image": "/ProductImages/20.jpg",
         "price": "600 DH"
     },
     {
         "id": 5,
         "title": "Translator",
-        "image": "https://www.usnews.com/dims4/USNEWS/4519c5a/2147483647/crop/424x278%2B0%2B0/resize/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F4f%2Fb685845b4da82decfd619722905b8d%2Fjobs-job-photo-107.jpg",
+        "image": "/ProductImages/21.jpeg",
         "price": "3600 DH"
     },
     {
         "id": 6,
         "title": "vandeur commerce",
-        "image": "https://f.hellowork.com/seo/domaine/commerce.jpeg",
+        "image": "/ProductImages/22.jpeg",
         "price": "30% du prix de produit"
     }
 ]

@@ -3,56 +3,56 @@
         
         "id":1,
         "title":"Appartement 84m",
-        "image":"https://www.challenge.ma/wp-content/uploads/2022/03/2210889_immobilier-locatif-faut-il-miser-sur-le-neuf-web-tete-0302336209996-1.jpg",
+        "image":"/ProductImages/34.jpg",
         "price":"504000 DH"
     },
     {
         
         "id":2,
         "title":"Appartement Kenitra",
-        "image":"https://www.bladi.net/img/logo/maroc-baisse-globale-prix-immobilier.jpg",
+        "image":"/ProductImages/35.jpg",
         "price":"740000 DH"
     },
     {
         
         "id":3,
         "title":"Appartement Mohammadia",
-        "image":"https://www.sarouty.ma/property/705b62b4036d6f5ed2e08290aa0408bc/668/452/MODE/762234/731793-5885eo.jpg?ctr=ma",
+        "image":"/ProductImages/36.jpg",
         "price":"654000 DH"
     },
     {
         
         "id":4,
         "title":"Appartement Marrakesh",
-        "image":"https://www.shams-home.fr/pictures/appartement_de_luxe_en_vente_gueliz_marrakech1.jpg",
+        "image":"/ProductImages/37.jpg",
         "price":"504000 DH"
     },
     {
         
         "id":5,
         "title":"Apartment Marrakesh New",
-        "image":"https://www.muretprestige.com/images/produits/igence-immobiliere-marrakech2.jpg",
+        "image":"/ProductImages/38.jpg",
         "price":"90000 DH"
     },
     {
         
         "id":6,
         "title":"Appartement Fes",
-        "image":"https://i.ytimg.com/vi/vQpR7i3nYSs/maxresdefault.jpg",
+        "image":"/ProductImages/38.jpg",
         "price":"400000 DH"
     },
     {
         
         "id":7,
         "title":"Appartement 184m Rabat",
-        "image":"https://q-xx.bstatic.com/xdata/images/hotel/max500/326697873.jpg?k=212c70e74643d5e9074efc21c28bd304ced4fa3ee26bc8015bd302151322b3ea&o=",
+        "image":"/ProductImages/39.jpg",
         "price":"2400000 DH"
     },
     {
         
         "id":8,
         "title":"Appartement Casablanca 104m",
-        "image":"https://media-cdn.tripadvisor.com/media/vr-splice-j/05/1c/0b/fc.jpg",
+        "image":"/ProductImages/40.jpg",
         "price":"400000 DH"
     }
 ]

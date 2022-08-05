@@ -49,7 +49,7 @@ const useCategoryProductsDisplay = () => {
 
     useEffect(() => {
         const fetchCompanies = async () => {
-            const rsp = await fetch("/entreprise.json");
+            const rsp = await fetch("/entreprises.json");
             const company = await rsp.json();
             setCompany(company);
         }
@@ -57,12 +57,12 @@ const useCategoryProductsDisplay = () => {
     }, [])
 
     useEffect(() => {
-        const fetchLeuisir = async () => {
+        const fetchLeuisire = async () => {
             const rsp = await fetch("/loisir.json");
-            const leisur = await rsp.json();
-            setLeisure(leisur);
+            const leisure = await rsp.json();
+            setLeisure(leisure);
         }
-        fetchLeuisir();
+        fetchLeuisire();
     }, [])
 
     useEffect(() => {
@@ -84,23 +84,23 @@ const useCategoryProductsDisplay = () => {
             break;
 
         case ":3":
-            DisplayData = Clothing;
-            break;
-
-        case ":4":
             DisplayData = Job;
             break;
 
-        case ":5":
-            DisplayData = Company;
+        case ":4":
+            DisplayData = Clothing;
             break;
 
-        case ":6":
+        case ":5":
             DisplayData = Leisure;
             break;
 
-        case ":7":
+        case ":6":
             DisplayData = Gardens;
+            break;
+
+        case ":7":
+            DisplayData = Company;
             break;
         default:
             return null;

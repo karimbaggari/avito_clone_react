@@ -48,7 +48,7 @@ const Productgrid = (props) => {
                                             <img className=" w-full" src={product.image} alt="A girl Posing Img" style={{ height: "320" + "px", borderRadius: "1" + "em" }} />
                                             <div className=" absolute bottom-0 p-8 w-full opacity-0 group-hover:opacity-100">
                                                 <button className=" font-medium text-base leading-4 text-gray-800 bg-white py-3 w-full"><a href={`/products:${product.id}`}>Voir Produit</a></button>
-                                                <button className=" bg-transparent font-medium text-base leading-4 border-2 border-white py-3 w-full mt-2 text-white">Enregistrer le Produit</button>
+                                                <button className=" bg-transparent font-medium text-base leading-4 border-2 border-white py-3 w-full mt-2 text-white">Livraison incluse</button>
                                             </div>
                                         </div>
                                         <p className=" font-normal text-xl leading-5 text-gray-800 md:mt-6 mt-4"> {`${product.title.substring(0, MAX_LENGTH)}...`}</p>
